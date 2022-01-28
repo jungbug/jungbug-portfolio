@@ -5,6 +5,10 @@
     width: 300px;
     margin-left: -150px;
 }
+.copy-tag{
+    position: absolute;
+    bottom: 5%;
+}
 .side-bar{
     position: fixed;
     z-index: 2;
@@ -24,4 +28,141 @@
 .btn{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.right-container{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.left-container{
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+.right-bottom-container{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+}
+.left-bottom-container{
+    position: absolute;
+    top: 65%;
+    right: 25%;
+}
+
+.middle-container{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 600px;
+    height: 300px;
+    margin-left: -300px;
+    margin-top: -150px;
+}
+
+.font-size40{
+    font-size: 40px;
+}
+
+.main-title{
+    font-size: 60px;
+}
+
+.font-size25{
+    font-size: 25px;
+}
+
+.font-size15{
+    font-size: 15px;
+}
+
+#icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.socials {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 300px;
+    margin-left: -500px;
+    margin-top: -150px;
+  transition: 0.5s all ease-in-out;
+  text-align: center;
+  padding: 10px;
+}
+.socials span i {
+  opacity: 0.7;
+  font-size: 40px;
+  padding: 20px;
+  transition: all 0.4s ease-in-out;
+  opacity: 1;
+}
+.socials span{
+    margin: 10px;
+}
+.socials .html-icon i {
+  color: #F0652A;
+}
+
+.socials .css-icon i {
+  color: rgb(66,154,214);
+}
+.socials .js-icon i {
+  color: #F0DB4F;
+}
+.socials .nodejs-icon i {
+  color: rgb(140,200,74);
+}
+.socials .github-icon i {
+    color: #000;
+  }
+.socials .docker-icon i {
+  color: rgb(65,132,255);
+}
+.socials .codepen-icon i {
+  color: #000;
+}
+.socials .bitcoin-icon i {
+  color: #F7931A;
+}
+.socials .apple-icon i {
+  color: lightgray;
+}
+.socials .stack-icon i {
+  color: rgb(232,122,35);
+}
+.socials .aws-icon i {
+    font-size: 35px;
+  color: #EA901C;
+}
+.socials .facebook-icon i {
+  color: #3C538C;
+}
+.socials .youtube-icon i {
+  color: red;
+}
+.socials .discord-icon i {
+  color: rgb(88,102,242);
+}
+.socials .twitch-icon i {
+  color: #8A42F2;
+}
+.socials .safari-icon i {
+  color: #4AA7F1;
+}
+.socials .instagram-icon i {
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(255, 210, 85));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.socials i:hover {
+  transform: scale(1.5) rotate(360deg);
+  opacity: 1;
 }
