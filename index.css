@@ -33,25 +33,25 @@
 .right-container{
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 15%;
     width: 600px;
 }
 .left-container{
     position: absolute;
     top: 25%;
-    right: 25%;
+    right: 15%;
     width: 600px;
 }
 .right-bottom-container{
     position: absolute;
     top: 65%;
-    left: 25%;
+    left: 15%;
     width: 600px;
 }
 .left-bottom-container{
     position: absolute;
     top: 65%;
-    right: 25%;
+    right: 15%;
     width: 600px;
 }
 
