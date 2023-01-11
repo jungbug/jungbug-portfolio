@@ -133,8 +133,8 @@
 .socials .codepen-icon i {
   color: #000;
 }
-.socials .bitcoin-icon i {
-  color: #F7931A;
+.socials .vue-icon i {
+  color: #45B77A;
 }
 .socials .apple-icon i {
   color: lightgray;
@@ -148,9 +148,6 @@
 }
 .socials .facebook-icon i {
   color: #3C538C;
-}
-.socials .youtube-icon i {
-  color: red;
 }
 .socials .discord-icon i {
   color: rgb(88,102,242);
